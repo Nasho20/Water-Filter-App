@@ -1,0 +1,18 @@
+stages:          
+  - build
+
+stage-build:      
+  stage: build
+  script:
+    - echo "this is only for development"
+    - cd /var/www/frontend-blue-filter
+    - git checkout stage
+    - git stash
+    - git pull
+    - echo "Using nodejs version:" $(node -v | cut -c 2-)
+    - npm i
+    - CI=false npm run build
+  only:
+    - stage 
+  tags:
+    - stage

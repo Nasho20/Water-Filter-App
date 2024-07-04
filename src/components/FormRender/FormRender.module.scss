@@ -1,0 +1,50 @@
+.labels {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.form_main {
+  margin-top: 74px;
+  padding: 0 60px;
+}
+
+.btn-submit {
+  width: 100%;
+  background: var(--add-primary);
+  padding: 9px 0;
+  cursor: pointer;
+  border-radius: 7px;
+  &:hover {
+    color: var(--white) !important;
+    background-color: var(--bs-primary) !important;
+  }
+}
+
+.btn-cancel {
+  width: 100%;
+  padding: 9px 0;
+  cursor: pointer;
+  border-radius: 7px;
+  background: var(--table-bg);
+  &:hover {
+    color: var(--white);
+    background-color: var(--light-disabled);
+  }
+}
+
+.disabled_inputs{
+  cursor: none;
+  pointer-events: none;
+}
+
+.error_validation {
+  color: var(--danger);
+}
+
+@media screen and (max-width: 800px) {
+
+  .form_main {
+    margin-top: 35px;
+    padding: 0 8px;
+  }
+}

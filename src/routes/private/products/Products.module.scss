@@ -1,0 +1,33 @@
+.clickedButton {
+  background-color: #003f5c;
+  color: #fff;
+  border: 1px solid #003f5c;
+  border-radius: 5px;
+}
+
+.dropdownToggle {
+  background-color: #003f5c;
+}
+
+.dropdownToggle:hover {
+  background-color: #003f5c;
+}
+
+.dropdownToggle:active {
+  background-color: #003f5c;
+}
+
+.dropdownToggle::after {
+  display: none !important;
+}
+
+.dropdownMenu {
+  background-color: #003f5c;
+}
+
+.dropdownItem:focus,
+.dropdownItem.active {
+  background-color: rgb(38, 92, 116);
+  border-radius: 30px;
+  // color: #your-desired-text-color;
+}

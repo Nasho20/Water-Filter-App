@@ -1,0 +1,33 @@
+.clickedButton {
+  background-color: #003f5c;
+  color: #fff;
+  border: 1px solid #003f5c;
+  border-radius: 5px;
+}
+
+.cards {
+  border-top: 1px solid var(--cards-border);
+  border-bottom: 1px solid var(--cards-border);
+  border-left: 1px solid var(--cards-border);
+  border-right: 1px solid var(--cards-border);
+}
+
+.firstCard {
+  border-top: 1px solid var(--cards-border);
+  border-bottom: 1px solid var(--cards-border);
+  // border-left: none;
+}
+
+.iconBackground {
+  background-color: #e7f3ff;
+  width: 4rem;
+  height: 4rem;
+}
+
+.cardIcon {
+  color: #265b8b;
+}
+
+.cardValue {
+  color: #265b8b;
+}

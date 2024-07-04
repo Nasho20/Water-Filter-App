@@ -1,0 +1,39 @@
+.notification_btn {
+  border-radius: 50%;
+  height: 35px;
+  margin: -5px 0 0 20px;
+  padding: 7px 1px 5px 10px;
+  background-color: #fff;
+}
+
+.notification_number {
+  background-color: var(--new-item);
+  border-radius: 50%;
+  color: var(--white);
+  font-size: 12px;
+  height: 18px;
+  margin: -8px 16px 0 -8px;
+}
+
+.notification_block {
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.searchBar {
+  width: 100%;
+  font-size: 16px;
+  text-overflow: ellipsis;
+  border: #fff;
+  border-radius: 50px;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 320px;
+  top: 30px;
+  width: 24px;
+  height: 24px;
+}

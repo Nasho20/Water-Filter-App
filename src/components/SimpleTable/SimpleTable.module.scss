@@ -1,0 +1,40 @@
+.tableContainer {
+  table-layout: fixed;
+  height: 100%;
+}
+
+.tableItems {
+  display: grid;
+  height: 100%;
+}
+
+.simpleTable {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+.headSimpleTable {
+  // background: var(--light-background) !important;
+  color: var(--text-primary) !important;
+  //   background-color: #e7f3ff;
+}
+
+.actionsSimpleTable {
+  background: var(--light-background) !important;
+  color: var(--text-primary) !important;
+}
+
+.actionsSimpleTableBody {
+  text-align: center;
+  cursor: pointer;
+}
+
+.td {
+  background-color: transparent !important;
+}
+
+@media screen and (max-width: 800px) {
+  .tableItems {
+    overflow-x: scroll;
+  }
+}

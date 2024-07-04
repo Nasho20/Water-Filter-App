@@ -1,0 +1,81 @@
+.dataTable {
+  height: 100%;
+  .ag-root-wrapper-body .ag-focus-managed .ag-layout-normal {
+    height: 100% !important;
+  }
+}
+
+.ag-root-wrapper,
+.ag-row {
+  border: none !important;
+}
+
+.ag-center-cols-clipper {
+  min-height: 0px !important;
+}
+
+.buttonClass {
+  border-radius: 40px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+  line-height: normal;
+}
+
+.tableToolbarActions {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.exportActionButton {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 6px;
+  background-color: var(--light);
+  color: black;
+  margin-left: 10px;
+}
+
+.icon {
+  margin-left: 10px;
+  margin-bottom: 3px;
+}
+
+.selectedRowsInfo {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 6px;
+  background-color: var(--bs-body-bg);
+  margin-left: 10px;
+  pointer-events: none;
+}
+
+.selectedText {
+  font-weight: 500;
+  color: #a2abbc;
+}
+
+.numberText {
+  font-weight: 700;
+}
+
+.pagination_footer {
+  border-bottom: var(--ag-borders) var(--ag-border-color) !important;
+  width: 100%;
+}
+
+.select_page {
+  width: 100px !important;
+  height: 33px;
+  padding-top: 4px;
+}
+
+.page-link {
+  color: var(--dark-text) !important;
+  cursor: pointer;
+}
